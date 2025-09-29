@@ -4,7 +4,6 @@
   "outputDirectory": "packages/examples/dist",
   "installCommand": "pnpm install",
   "framework": "vite",
-  "ignoreCommand": "git diff HEAD^ HEAD --quiet ./packages/examples/",
   "git": {
     "deploymentEnabled": {
       "main": true
