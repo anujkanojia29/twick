@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm install && pnpm run build",
+  "buildCommand": "pnpm install && pnpm run build:media-utils && pnpm run build:canvas && pnpm run build:timeline && pnpm run build:live-player && pnpm run build:video-editor && pnpm run build:studio && pnpm run build:examples",
   "outputDirectory": "packages/examples/dist",
   "installCommand": "pnpm install",
   "framework": "vite",
