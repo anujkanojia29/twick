@@ -9,9 +9,5 @@
     "deploymentEnabled": {
       "main": true
     }
-  },
-  "commands": {
-    "build": "pnpm install && pnpm run build",
-    "start": "cd packages/examples && pnpm run preview"
   }
 }
