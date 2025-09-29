@@ -1,16 +1,3 @@
-packages/canvas/
-packages/media-utils/
-packages/live-player/
-packages/timeline/
-packages/video-editor/
-packages/studio/
-packages/render-server/
-packages/visualizer/
-packages/2d/
-packages/core/
-packages/ffmpeg/
-packages/renderer/
-packages/ui/
 .git/
 .github/
 node_modules/
@@ -18,3 +5,4 @@ node_modules/
 **/.turbo/
 **/dist/
 !packages/examples/dist/
+packages/documentation/
