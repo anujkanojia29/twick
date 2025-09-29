@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm install && pnpm run build:media-utils && pnpm run build:canvas && pnpm run build:timeline && pnpm run build:live-player && pnpm run build:video-editor && pnpm run build:studio && pnpm run build:examples",
+  "buildCommand": "apt-get update && apt-get install -y python3-distutils build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev && pnpm install && pnpm run build",
   "outputDirectory": "packages/examples/dist",
   "installCommand": "pnpm install",
   "framework": "vite",
